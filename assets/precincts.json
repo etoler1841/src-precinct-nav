@@ -1,207 +1,330 @@
 [
   {
-    "num": "1",
+    "num": 1,
     "name": "St Mary's Episcopal Church",
-    "url": "https://www.google.com/maps/dir/?api=1&destination=6850+Oak+St+Milton%2C+FL+32570"
+    "address": "6850 Oak St Milton, FL 32570",
+    "evid": true,
+    "special": true,
+    "general": true
   },
   {
-    "num": "2",
+    "num": 2,
     "name": "Pace Community Center (Ball Park)",
-    "url": "https://www.google.com/maps/dir/?api=1&destination=5976+Chumuckla+Hwy+Pace%2C+FL+32571"
+    "address": "5976 Chumuckla Hwy Pace, FL 32571",
+    "evid": true,
+    "special": true,
+    "general": true
   },
   {
-    "num": "3",
+    "num": 3,
     "name": "Jay Community Center",
-    "url": "https://www.google.com/maps/dir/?api=1&destination=5259+Booker+Ln+Jay%2C+FL+32565"
+    "address": "5259 Booker Ln Jay, FL 32565",
+    "evid": true,
+    "special": false,
+    "general": true
   },
   {
-    "num": "4",
+    "num": 4,
     "name": "Jay Community Center",
-    "url": "https://www.google.com/maps/dir/?api=1&destination=5259+Booker+Ln+Jay%2C+FL+32565"
+    "address": "5259 Booker Ln Jay, FL 32565",
+    "evid": true,
+    "special": false,
+    "general": true
   },
   {
-    "num": "5",
+    "num": 5,
     "name": "Munson-Blackwater Baptist Church",
-    "url": "https://www.google.com/maps/dir/?api=1&destination=11689+Munson+HWY+Milton%2C+FL+32570"
+    "address": "11689 Munson HWY Milton, FL 32570",
+    "evid": false,
+    "special": false,
+    "general": true
   },
   {
-    "num": "6",
+    "num": 6,
     "name": "Munson-Blackwater Baptist Church",
-    "url": "https://www.google.com/maps/dir/?api=1&destination=11689+Munson+HWY+Milton%2C+FL+32570"
+    "address": "11689 Munson HWY Milton, FL 32570",
+    "evid": false,
+    "special": false,
+    "general": true
   },
   {
-    "num": "7",
+    "num": 7,
     "name": "Munson-Blackwater Baptist Church",
-    "url": "https://www.google.com/maps/dir/?api=1&destination=11689+Munson+HWY+Milton%2C+FL+32570"
+    "address": "11689 Munson HWY Milton, FL 32570",
+    "evid": false,
+    "special": false,
+    "general": true
   },
   {
-    "num": "8",
+    "num": 8,
     "name": "Milton City Hall",
-    "url": "https://www.google.com/maps/dir/?api=1&destination=6738+Dixon+St+Milton%2C+FL+32570"
+    "address": "6738 Dixon St Milton, FL 32570",
+    "evid": false,
+    "special": true,
+    "general": true
   },
   {
-    "num": "9",
+    "num": 9,
     "name": "East Milton Community Gym",
-    "url": "https://www.google.com/maps/dir/?api=1&destination=8600+Bobby+Brown+Rd+Milton%2C+FL+32583"
+    "address": "8600 Bobby Brown Rd Milton, FL 32583",
+    "evid": true,
+    "special": false,
+    "general": true
   },
   {
-    "num": "10",
+    "num": 10,
     "name": "Harbor at Holley Assembly of God (Harbor Cafe)",
-    "url": "https://www.google.com/maps/dir/?api=1&destination=4020+HWY+87+Navarre%2C+FL+32566"
+    "address": "4020 HWY 87 Navarre, FL 32566",
+    "evid": false,
+    "special": true,
+    "general": false
   },
   {
-    "num": "11",
+    "num": 11,
     "name": "Solid Rock Baptist Church",
-    "url": "https://www.google.com/maps/dir/?api=1&destination=6760+East+Gate+Rd+Milton%2C+FL+32570"
+    "address": "6760 East Gate Rd Milton, FL 32570",
+    "evid": false,
+    "special": false,
+    "general": true
   },
   {
-    "num": "12",
+    "num": 12,
     "name": "First Assembly of God Church",
-    "url": "https://www.google.com/maps/dir/?api=1&destination=6163+Dogwood+St+Milton%2C+FL+32570"
+    "address": "6163 Dogwood St Milton, FL 32570",
+    "evid": false,
+    "special": false,
+    "general": true
   },
   {
-    "num": "13",
+    "num": 13,
     "name": "Allentown VFD",
-    "url": "https://www.google.com/maps/dir/?api=1&destination=9482+HWY+89+Milton%2C+FL+32570"
+    "address": "9482 HWY 89 Milton, FL 32570",
+    "evid": false,
+    "special": false,
+    "general": true
   },
   {
-    "num": "14",
+    "num": 14,
     "name": "East Milton Community Gym",
-    "url": "https://www.google.com/maps/dir/?api=1&destination=8600+Bobby+Brown+Rd+Milton%2C+FL+32583"
+    "address": "8600 Bobby Brown Rd Milton, FL 32583",
+    "evid": true,
+    "special": false,
+    "general": true
   },
   {
-    "num": "15",
+    "num": 15,
     "name": "Guy Thompson Community Center",
-    "url": "https://www.google.com/maps/dir/?api=1&destination=5629+Byrom+St+Milton%2C+FL+32570"
+    "address": "5629 Byrom St Milton, FL 32570",
+    "evid": false,
+    "special": true,
+    "general": true
   },
   {
-    "num": "16",
+    "num": 16,
     "name": "Bagdad-Bagdad Community Center",
-    "url": "https://www.google.com/maps/dir/?api=1&destination=6860+Pooley+St+Milton%2C+FL+32583"
+    "address": "6860 Pooley St Milton, FL 32583",
+    "evid": true,
+    "special": false,
+    "general": true
   },
   {
-    "num": "17",
+    "num": 17,
     "name": "Fidelis Community Center",
-    "url": "https://www.google.com/maps/dir/?api=1&destination=13786+Highway+87+Jay%2C+FL+32565"
+    "address": "13786 Highway 87 Jay, FL 32565",
+    "evid": false,
+    "special": false,
+    "general": true
   },
   {
-    "num": "18",
+    "num": 18,
     "name": "Friendship Baptist Church",
-    "url": "https://www.google.com/maps/dir/?api=1&destination=5300+Berryhill+Rd+Milton%2C+FL+32570"
+    "address": "5300 Berryhill Rd Milton, FL 32570",
+    "evid": false,
+    "special": false,
+    "general": true
   },
   {
-    "num": "19",
+    "num": 19,
     "name": "Chumuckla Community Center",
-    "url": "https://www.google.com/maps/dir/?api=1&destination=2355+County+Road+182+Jay%2C+FL+23565"
+    "address": "2355 HWY 182 Jay, FL 23565",
+    "evid": false,
+    "special": true,
+    "general": true
   },
   {
-    "num": "20",
+    "num": 20,
     "name": "Immanuel Baptist Church",
-    "url": "https://www.google.com/maps/dir/?api=1&destination=4187+Highway+90+Pace%2C+FL+32571"
+    "address": "4187 Highway 90 Pace, FL 32571",
+    "evid": true,
+    "special": true,
+    "general": false
   },
   {
-    "num": "21",
+    "num": 21,
     "name": "Christian Life Church",
-    "url": "https://www.google.com/maps/dir/?api=1&destination=4401+Avalon+Blvd+Milton%2C+FL+32583"
+    "address": "4401 Avalon Blvd Milton, FL 32583",
+    "evid": true,
+    "special": false,
+    "general": true
   },
   {
-    "num": "22",
+    "num": 22,
     "name": "Gulf Breeze Community Center",
-    "url": "https://www.google.com/maps/dir/?api=1&destination=800+Shoreline+Dr+Gulf+Breeze%2C+FL+32561"
+    "address": "800 Shoreline Dr Gulf Breeze, FL 32561",
+    "evid": true,
+    "special": true,
+    "general": false
   },
   {
-    "num": "23",
+    "num": 23,
     "name": "Midway Fire Dept",
-    "url": "https://www.google.com/maps/dir/?api=1&destination=1801+Abercrombie+Rd+Gulf+Breeze%2C+FL+32563"
+    "address": "1801 Abercrombie Rd Gulf Breeze, FL 32563",
+    "evid": false,
+    "special": true,
+    "general": false
   },
   {
-    "num": "24",
+    "num": 24,
     "name": "County Auditorium",
-    "url": "https://www.google.com/maps/dir/?api=1&destination=4530+Spike's+Way+Milton%2C+FL+32583"
+    "address": "4530 Spike's Way Milton, FL 32583",
+    "evid": true,
+    "special": true,
+    "general": true
   },
   {
-    "num": "25",
+    "num": 25,
     "name": "Coastline Calvary Chapel-Oriole Beach",
-    "url": "https://www.google.com/maps/dir/?api=1&destination=1122+Oriole+Beach+Rd+Gulf+Breeze%2C+FL+23563"
+    "address": "1122 Oriole Beach Rd Gulf Breeze, FL 23563",
+    "evid": true,
+    "special": true,
+    "general": false
   },
   {
-    "num": "26",
+    "num": 26,
     "name": "Navarre Community Gym",
-    "url": "https://www.google.com/maps/dir/?api=1&destination=8840+High+School+Blvd+Navarre%2C+FL+32566"
+    "address": "8840 High School Blvd Navarre, FL 32566",
+    "evid": true,
+    "special": true,
+    "general": false
   },
   {
-    "num": "27",
+    "num": 27,
     "name": "Woodbine Methodist Church",
-    "url": "https://www.google.com/maps/dir/?api=1&destination=5200+Woodbine+Rd+Pace%2C+FL+32571"
+    "address": "5200 Woodbine Rd Pace, FL 32571",
+    "evid": true,
+    "special": true,
+    "general": false
   },
   {
-    "num": "28",
+    "num": 28,
     "name": "Community Life United Methodist Church",
-    "url": "https://www.google.com/maps/dir/?api=1&destination=4115+Soundside+Dr+Gulf+Breeze%2C+FL+32563"
+    "address": "4115 Soundside Dr Gulf Breeze, FL 32563",
+    "evid": true,
+    "special": false,
+    "general": true
   },
   {
-    "num": "29",
+    "num": 29,
     "name": "Pullum Senior Citizens Center",
-    "url": "https://www.google.com/maps/dir/?api=1&destination=8476+Gordon+Goodin+Ln+Navarre%2C+FL+32566"
+    "address": "8476 Gordon Goodin Ln Navarre, FL 32566",
+    "evid": false,
+    "special": true,
+    "general": false
   },
   {
-    "num": "30",
+    "num": 30,
     "name": "Pine Terrace Baptist Church",
-    "url": "https://www.google.com/maps/dir/?api=1&destination=6212+Pine+Blossom+Rd.+Milton%2C+FL+32570"
+    "address": "6212 Pine Blossom Rd. Milton, FL 32570",
+    "evid": false,
+    "special": false,
+    "general": true
   },
   {
-    "num": "31",
+    "num": 31,
     "name": "Immanuel Baptist Church",
-    "url": "https://www.google.com/maps/dir/?api=1&destination=4187+Highway+90+Pace%2C+FL+32571"
+    "address": "4187 Highway 90 Pace, FL 32571",
+    "evid": true,
+    "special": true,
+    "general": false
   },
   {
-    "num": "32",
+    "num": 32,
     "name": "Coastline Calvary Chapel-Oriole Beach",
-    "url": "https://www.google.com/maps/dir/?api=1&destination=1122+Oriole+Beach+Rd+Gulf+Breeze%2C+FL+23563"
+    "address": "1122 Oriole Beach Rd Gulf Breeze, FL 23563",
+    "evid": true,
+    "special": true,
+    "general": false
   },
   {
-    "num": "33",
+    "num": 33,
     "name": "East Milton Community Gym",
-    "url": "https://www.google.com/maps/dir/?api=1&destination=8600+Bobby+Brown+Rd+Milton%2C+FL+32583"
+    "address": "8600 Bobby Brown Rd Milton, FL 32583",
+    "evid": true,
+    "special": false,
+    "general": true
   },
   {
-    "num": "34",
+    "num": 34,
     "name": "St Sylvester's Catholic Church",
-    "url": "https://www.google.com/maps/dir/?api=1&destination=6464+Gulf+Breeze+Pkwy+Rd+Gulf+Breeze%2C+FL+32563"
+    "address": "6464 Gulf Breeze Pkwy Rd Gulf Breeze, FL 32563",
+    "evid": true,
+    "special": true,
+    "general": false
   },
   {
-    "num": "35",
+    "num": 35,
     "name": "Navarre United Methodist Church",
-    "url": "https://www.google.com/maps/dir/?api=1&destination=9474+Navarre+Pkwy+Navarre%2C+FL+32566"
+    "address": "9474 Navarre Pkwy Navarre, FL 32566",
+    "evid": false,
+    "special": true,
+    "general": false
   },
   {
-    "num": "36",
+    "num": 36,
     "name": "Woodbine Methodist Church",
-    "url": "https://www.google.com/maps/dir/?api=1&destination=5200+Woodbine+Rd+Pace%2C+FL+32571"
+    "address": "5200 Woodbine Rd Pace, FL 32571",
+    "evid": true,
+    "special": true,
+    "general": false
   },
   {
-    "num": "37",
+    "num": 37,
     "name": "Community Life United Methodist Church",
-    "url": "https://www.google.com/maps/dir/?api=1&destination=4115+Soundside+Dr+Gulf+Breeze%2C+FL+32563"
+    "address": "4115 Soundside Dr Gulf Breeze, FL 32563",
+    "evid": true,
+    "special": false,
+    "general": true
   },
   {
-    "num": "38",
+    "num": 38,
     "name": "Navarre Community Gym",
-    "url": "https://www.google.com/maps/dir/?api=1&destination=8840+High+School+Blvd+Navarre%2C+FL+32566"
+    "address": "8840 High School Blvd Navarre, FL 32566",
+    "evid": true,
+    "special": false,
+    "general": true
   },
   {
-    "num": "39",
+    "num": 39,
     "name": "Heritage Chapel",
-    "url": "https://www.google.com/maps/dir/?api=1&destination=3375+Garcon+Point+Rd+Milton%2C+FL+32583"
+    "address": "3375 Garcon Point Rd Milton, FL 32583",
+    "evid": false,
+    "special": false,
+    "general": true
   },
   {
-    "num": "40",
+    "num": 40,
     "name": "Navarre Presbyterian Church",
-    "url": "https://www.google.com/maps/dir/?api=1&destination=1870+Lowe+Rd+Navarre%2C+FL+32566"
+    "address": "1870 Lowe Rd Navarre, FL 32566",
+    "evid": false,
+    "special": true,
+    "general": false
   },
   {
-    "num": "41",
+    "num": 41,
     "name": "Midway Baptist Church",
-    "url": "https://www.google.com/maps/dir/?api=1&destination=5471+Gulf+Breeze+Pkwy+Gulf+Breeze%2C+FL+32563"
+    "address": "5471 Gulf Breeze Pkwy Gulf Breeze, FL 32563",
+    "evid": true,
+    "special": false,
+    "general": true
   }
 ]
