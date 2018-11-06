@@ -12,12 +12,18 @@ export default class App extends React.Component {
     }
   }
 
+  createNavURL = ({addr}) => {
+    https://www.google.com/maps/dir/?api=1&destination=6850+Oak+St+Milton%2C+FL+32570
+    let url = `https://www.google.com/maps/dir/?api=1&destination=${addr.replace(" ", "+").replace(",", "%2C")}`;
+    return url;
+  }
+
   renderListItem = ({item}) => (
     <ListItem
       roundAvatar
       title={`Precinct ${item.num}`}
       subtitle={item.name}
-      onPress={() => Linking.openURL(item.url)}
+      onPress={() => Linking.openURL(createNavURL(item.address))}
     />
   )
 
@@ -29,7 +35,7 @@ export default class App extends React.Component {
         >
           <Header
             centerComponent={{
-              text: "SRC Voting Locations",
+              text: "SRC Election Precincts",
               style: {
                 color: "#fff",
                 fontSize: 25,
@@ -42,7 +48,8 @@ export default class App extends React.Component {
             }}
             outerContainerStyles={{
               paddingBottom: 60,
-              marginBottom: 0
+              marginBottom: 0,
+              height: "100%"
             }}
             id="header"
           />
