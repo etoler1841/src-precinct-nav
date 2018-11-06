@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, FlatList, Linking } from 'react-native';
+import { Stylesheet, View, FlatList, Linking } from 'react-native';
 import { Header, List, ListItem } from 'react-native-elements';
 
 const precincts = require("./assets/precincts.json");
@@ -13,7 +13,6 @@ export default class App extends React.Component {
   }
 
   createNavURL = ({addr}) => {
-    https://www.google.com/maps/dir/?api=1&destination=6850+Oak+St+Milton%2C+FL+32570
     let url = `https://www.google.com/maps/dir/?api=1&destination=${addr.replace(" ", "+").replace(",", "%2C")}`;
     return url;
   }
@@ -21,9 +20,16 @@ export default class App extends React.Component {
   renderListItem = ({item}) => (
     <ListItem
       roundAvatar
-      title={`Precinct ${item.num}`}
+      title={`Precinct ${item.num}${item.evid ? " [EViD]" : "" }`}
       subtitle={item.name}
       onPress={() => Linking.openURL(createNavURL(item.address))}
+      style={
+        item.special ?
+          item.general ?
+            styles.split :
+            styles.special :
+          styles.general
+      }
     />
   )
 
@@ -71,3 +77,15 @@ export default class App extends React.Component {
     );
   }
 }
+
+const styles = StyleSheet.create({
+  split: {
+    backgroundColor: "hsl(280, 50, 70)"
+  },
+  special: {
+    backgroundColor: "hsl(250, 50, 70)"
+  },
+  general: {
+    backgroundColor: "hsl(0, 50, 70)"
+  }
+})
